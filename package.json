@@ -1,0 +1,19 @@
+{
+  "name": "test-gh",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "export": "next export",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7"
+  }
+}

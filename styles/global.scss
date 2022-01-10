@@ -1,0 +1,17 @@
+@import "variables";
+$theme-colors: (
+        'primary': $Blue,
+        'secondary': $Orange,
+        'success': $Green,
+        'info': #ff7d50,
+        'warning': #ffbe0b,
+        'danger': $Red,
+        'light': $White,
+        'dark': $Black,
+);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: $font-family-open-sans;
+    background-color: $Light_Gray;
+}

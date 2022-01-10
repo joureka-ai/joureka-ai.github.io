@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div className="col-2">
                         <div className={styles.logoContainer}>
-                            <img className="px-3" src="/logo.png" width="100" alt="joureka Logo"/>
+                            <img className="px-3" src="logo.png" width="100" alt="joureka Logo"/>
                             <span>&#169; joureka 2021</span>
                         </div>
                     </div>

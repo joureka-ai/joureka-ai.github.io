@@ -12,7 +12,7 @@ const Header = () => {
                 <img className="px-3 img-fluid" src="logo.png" width="150" alt="joureka Logo"/>
             </div>
             <nav className={styles.nav}>
-                {/*<Link href={`#About`}>
+                <Link href={`#About`}>
                     <span className={styles.navLink}>Über das Projekt</span>
                 </Link>
                 <Link href={`#Install`}>
@@ -20,7 +20,7 @@ const Header = () => {
                 </Link>
                 <Link href={`#Contact`}>
                     <span className={styles.navLink}>Kontakt</span>
-                </Link>*/}
+                </Link>
                 <Link href={`https://github.com/joureka-ai/joureka-app`}>
                     <a><FontAwesomeIcon size="2x" className="text-secondary" icon={faGithub} /></a>
                 </Link>

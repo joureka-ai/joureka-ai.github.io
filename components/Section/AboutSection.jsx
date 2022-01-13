@@ -5,7 +5,7 @@ const AboutSection = () => {
 
   return (
     <React.Fragment>
-        <div className="d-flex flex-row row justify-content-center align-items-center">
+        <div className="d-flex flex-row row justify-content-center align-items-center h-100">
             <div className="col-12 pl-lg pr-md">
                 <h1 className={styles.sectionTitle}>Was ist joureka?</h1>
                 <p className={styles.sectionDescription}>Vivamus ut quam quis augue egestas vulputate a 

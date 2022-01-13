@@ -7,14 +7,21 @@ $theme-colors: (
         'warning': #ffbe0b,
         'danger': $Red,
         'light': $White,
-        'dark': $Black,
+        'dark': $Gray,
 );
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 body {
     font-family: $font-family-open-sans;
     background-color: $Light_Gray;
+    overflow-wrap: anywhere;
 }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+  
 
 .pl-lg {
     padding-left: 8rem;
@@ -32,3 +39,64 @@ body {
     width: auto !important;  
     height: 60vh !important;
 }
+
+.circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    background: $Light_Orange;
+    border: none;
+    color: $Orange;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+@media only screen and (max-width: 426px) {
+    .pl-lg {
+        padding-left: 4rem;
+    }
+    
+    .pr-md {
+        padding-right: 2.5rem;
+    }
+    
+    .pr-sm {
+        padding-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+.circle {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 0 .5rem;
+    font-size: 1rem;
+}
+}
+
+.code {
+    background-color: $Light_Orange;
+    color: $Orange;
+    border-radius: $border-radius-small;
+    padding: .4rem;
+    font-size: .8rem;
+    font-family: Consolas;
+    overflow-wrap: anywhere;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $Light_Gray;
+    z-index: 10;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }

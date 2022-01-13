@@ -8,7 +8,7 @@ const ProjectSection = () => {
 
   return (
     <React.Fragment>
-        <div className="d-flex flex-row row justify-content-center align-items-center">
+        <div className="d-flex flex-row row justify-content-center align-items-center h-100">
             <div className="col-12 col-md-10 pl-lg pr-md">
                 <h1 className={styles.sectionTitle}>Über das Projekt</h1>
                 <p className={styles.sectionDescription}>Vivamus ut quam quis augue egestas vulputate a 
@@ -35,13 +35,13 @@ const ProjectSection = () => {
                 </p>
             </div>
             <div className={`col-12 col-md-2 ${styles.blueContainer} ${styles.right}`}>
-                <div className="d-flex flex-column align-items-center p-5">
+                <div className="d-flex flex-column align-items-center p-3">
                     <Link href={`https://github.com/joureka-ai/joureka-app`}>
                         <a className="py-3"><img src="logo-pf.png" alt="image1" /></a>
                     </Link>
-                    <Link href={`https://github.com/joureka-ai/joureka-app`}>
-                        <a className="py-3"><FontAwesomeIcon size="3x" className="text-secondary" icon={faGithub} /></a>
-                    </Link>
+                    <a target="_blank" href={`https://github.com/joureka-ai/joureka-app`}>
+                        <FontAwesomeIcon size="2x" className="text-secondary" icon={faGithub} />
+                    </a>
                     <Link href={`https://github.com/joureka-ai/joureka-app`}>
                         <a className="py-3"><img src="logo-aureka.png" alt="image1" /></a>
                     </Link>

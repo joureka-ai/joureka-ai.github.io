@@ -5,13 +5,19 @@ import IntroductionSection from "../components/Section/IntroductionSection";
 import ProjectSection from "../components/Section/ProjectSection";
 import AboutSection from "../components/Section/AboutSection";
 import InstallationSection from "../components/Section/InstallationSection";
+import TeamSection from "../components/Section/TeamSection";
+import { useRouter } from "next/router";
+import ContactSection from "../components/Section/ContactSection";
 
 export default function Home() {
+  const router = useRouter();
   const refToIntorduction = React.useRef(null);
   const refToDescription = React.useRef(null);
   const refToInstallation = React.useRef(null);
   const refToAbout = React.useRef(null);
   const refToTeam = React.useRef(null);
+  const refToContact = React.useRef(null);
+
 
   useEffect(() => {
     async function animate() {
@@ -35,9 +41,36 @@ export default function Home() {
         const sr = (await import("scrollreveal")).default
         sr().reveal(refToTeam.current, { delay: 500 })
       }
+      if (refToContact.current) {
+        const sr = (await import("scrollreveal")).default
+        sr().reveal(refToContact.current, { delay: 500 })
+      }
     }
     animate()
   }, [])
+
+  useEffect(() => {
+    const path = router.asPath;
+    if (path && path.includes('/#')) {
+      const sectionName = path.replace('/#', '');
+      switch (sectionName) {
+        case 'About':
+          refToAbout.current.scrollIntoView({block: 'center', behavior: 'smooth' });
+          break;
+        case 'Install':
+          refToInstallation.current.scrollIntoView({block: 'center', behavior: 'smooth' });
+          break;
+        case 'Team':
+          refToTeam.current.scrollIntoView({block: 'center', behavior: 'smooth' });
+          break;
+        case 'Contact':
+          refToContact.current.scrollIntoView({block: 'center', behavior: 'smooth' });
+        break;
+        default:
+          break;
+      }
+    }
+  }, [router.asPath]);
 
   return (
     <div>
@@ -68,9 +101,12 @@ export default function Home() {
       </div>
       <div ref={refToTeam}>
         <Section id="Team">
-          <h1>
-            Über uns
-          </h1>
+          <TeamSection></TeamSection>
+        </Section>
+      </div>
+      <div ref={refToContact}>
+        <Section id="Contact">
+          <ContactSection></ContactSection>
         </Section>
       </div>
     </div>

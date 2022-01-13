@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import Section from "../components/Section/Section";
 import IntroductionSection from "../components/Section/IntroductionSection";
@@ -74,9 +75,30 @@ export default function Home() {
 
   return (
     <div>
+      <NextSeo
+        title="joureka Website"
+        description="This is where the marketing website of the joureka project lives."
+        openGraph={{
+          type: 'website',
+          url: 'https://joureka-ai.github.io/joureka-web/',
+          title: 'joureka Website',
+          description: 'This is where the marketing website of the joureka project lives.',
+          images: [
+            {
+              url: 'https://joureka-ai.github.io/joureka-web/logo.png',
+              width: 800,
+              height: 600,
+              alt: 'joureka logo',
+            },
+          ],
+        }}
+        twitter={{
+          handle: '@handle',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+      />
       <Head>
-        <title>joureka Website</title>
-        <meta name="description" content="This is where the marketing website of the joureka project lives." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div ref={refToIntorduction}>

@@ -13,9 +13,10 @@ const ContactSection = () => {
             <div className={`col-6 ${styles.orangeContainer} ${styles.center}`}>
                 <div className="p-3">
                     <h1 className={styles.sectionTitle}>Kontakt</h1>
-                    <p className={styles.sectionDescription}>Vivamus ut quam quis augue egestas vulputate a 
-                        vitae ligula. Suspendisse pulvinar nulla vel tellus 
-                        dapibus rhoncus. 
+                    <p className={styles.sectionDescription}>Bist du an unserem Projekt interessiert? 
+                    Brauchst du Unterstützung bei der lokalen Installation von joureka für dich oder 
+                    dein Team? Wünscht du dir weitere Funktionen für joureka? Dann melde dich einfach 
+                    bei uns. Wir freuen uns, von dir zu hören!
                     </p>
                     <div className="d-flex justify-content-start align-items-center text-primary fw-bolder pt-2">
                         <FontAwesomeIcon icon={faPaperPlane}/>

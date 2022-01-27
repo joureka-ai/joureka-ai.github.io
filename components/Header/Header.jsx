@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <div className={`${scroll ? "sticky": ""} d-flex flex-row justify-content-between align-center p-2`}>
             <div className={`${styles.logoContainer} d-flex align-items-center`}>
-                <img className="px-3 img-fluid" src="logo.png" width="150" alt="joureka Logo"/>
+                <img className="px-3" src="logo.png" alt="joureka Logo"/>
             </div>
             <div className="mobileNav d-flex flex-row align-items-center d-block d-lg-none">
                 <div className="dropdown m-3">

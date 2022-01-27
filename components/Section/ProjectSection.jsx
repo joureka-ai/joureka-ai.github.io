@@ -11,40 +11,27 @@ const ProjectSection = () => {
         <div className="d-flex flex-row row justify-content-center align-items-center h-100">
             <div className="col-12 col-md-10 pl-lg pr-md">
                 <h1 className={styles.sectionTitle}>Über das Projekt</h1>
-                <p className={styles.sectionDescription}>Vivamus ut quam quis augue egestas vulputate a 
-                    vitae ligula. Suspendisse pulvinar nulla vel tellus 
-                    dapibus rhoncus. Vivamus pharetra quam vitae 
-                    vestibulum cursus. Nulla dictum vitae ipsum sagittis 
-                    luctus. Morbi id congue dolor. Morbi nec purus eu justo
-                    tincidunt volutpat sed eu purus. Aliquam egestas 
-                    maximus ipsum, vel imperdiet lacus varius nec. In hac
-                    habitasse platea dictumst. Donec gravida eleifend mi 
-                    quis commodo. Duis sed leo justo. Fusce eget justo non 
-                    risus tempor laoreet. Suspendisse ullamcorper magna 
-                    quis velit ullamcorper suscipit.Vivamus ut quam quis augue egestas vulputate a 
-                    vitae ligula. Suspendisse pulvinar nulla vel tellus 
-                    dapibus rhoncus. Vivamus pharetra quam vitae 
-                    vestibulum cursus. Nulla dictum vitae ipsum sagittis 
-                    luctus. Morbi id congue dolor. Morbi nec purus eu justo
-                    tincidunt volutpat sed eu purus. Aliquam egestas 
-                    maximus ipsum, vel imperdiet lacus varius nec. In hac
-                    habitasse platea dictumst. Donec gravida eleifend mi 
-                    quis commodo. Duis sed leo justo. Fusce eget justo non 
-                    risus tempor laoreet. Suspendisse ullamcorper magna 
-                    quis velit ullamcorper suscipit.
+                <p className={styles.sectionDescription}>joureka ist Teil des 
+                <span className="text-secondary fw-bold"> aureka-Ökosystems</span>. aureka ist ein Startup, das digitale Tools für 
+                das audiovisuelle Erbe und die Wissensproduktion entwickelt. Wir 
+                gestalten künstliche Intelligenz für den gesellschaftlichen Nutzen. 
+                Die cloud-basierte App von aureka für Archive, Bibliotheken und 
+                wissenschaftliche Einrichtungen unterstützt die Erschließung und 
+                Forschung mit audiovisuellen Medien. Bei aureka sind wir uns der 
+                Entwicklung bewusst das zu verarbeitende Datenmengen wachsen und 
+                Herausforderungen an Journalist:innen stetig steigen. Mit joureka 
+                möchten wir eine effiziente Lösung anbieten, die wichtige investigativ 
+                Arbeit unterstützt und Journalist:innen hilft, die Sicherheit und 
+                Souveränität ihrer Daten und Informant:innen zu wahren.
                 </p>
             </div>
             <div className={`col-12 col-md-2 ${styles.blueContainer} ${styles.right}`}>
                 <div className="d-flex flex-column align-items-center p-3">
-                    <Link href={`https://github.com/joureka-ai/joureka-app`}>
-                        <a className="py-3"><img src="logo-pf.png" alt="image1" /></a>
-                    </Link>
-                    <a target="_blank" href={`https://github.com/joureka-ai/joureka-app`}>
-                        <FontAwesomeIcon size="2x" className="text-secondary" icon={faGithub} />
+                    <a target="_blank" href={`https://prototypefund.de/project/joureka-mit-mehr-musse-vom-interview-zum-artikel/`} className="py-3"><img src="logo-pf.png" alt="Logo Prototype Fund" /></a>
+                    <a target="_blank" href={`https://github.com/joureka-ai/joureka-app`} className="py-3">
+                        <FontAwesomeIcon size="3x" className="text-secondary" icon={faGithub} />
                     </a>
-                    <Link href={`https://github.com/joureka-ai/joureka-app`}>
-                        <a className="py-3"><img src="logo-aureka.png" alt="image1" /></a>
-                    </Link>
+                    <a target="_blank" href={`https://aureka.ai/`} className="py-3"><img src="logo_aureka.png" alt="Logo aureka" /></a>
                 </div> 
             </div>
         </div>

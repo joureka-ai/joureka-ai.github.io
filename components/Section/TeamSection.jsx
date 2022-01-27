@@ -15,6 +15,17 @@ const TeamSection = () => {
             <div className={`col-12 col-md-6 ${styles.blueContainer} ${styles.left}`}>
                 <div className="d-flex flex-column justify-content-center align-center p-5">
                     <div className="d-flex flex-row justify-content-around align-items-center pb-5">
+                        <div className="d-flex flex-column align-items-center p-1">
+                            <a className="py-2" target="_blank" href={`https://de.linkedin.com/in/cecilia-maas-49850091`}>
+                                <FontAwesomeIcon size="2x" className="text-secondary" icon={faLinkedin} />
+                            </a>
+                        </div>
+                        <div className="d-flex flex-column justify-content-center align-items-center p-3">
+                            <h5>Cecilia Maas</h5>
+                            <div className="text-center"> Project Management | Content Developer</div>
+                        </div>
+                    </div>
+                    <div className="d-flex flex-row justify-content-around align-items-center pb-5">
                         <div className="d-flex flex-column justify-content-center align-items-center p-3">
                             <h5>Felix Mertineit</h5>
                             <div className="text-center">Backend Developer | Machine Learning |<br/>Project Management</div>
@@ -46,17 +57,14 @@ const TeamSection = () => {
             </div>
             <div className="col-12 col-md-6 pl-lg pr-sm mt-3">
                 <h1 className={styles.sectionTitle}>Über uns</h1>
-                <p className={styles.sectionDescription}>Vivamus ut quam quis augue egestas vulputate a 
-                    vitae ligula. Suspendisse pulvinar nulla vel tellus 
-                    dapibus rhoncus. Vivamus pharetra quam vitae 
-                    vestibulum cursus. Nulla dictum vitae ipsum sagittis 
-                    luctus. Morbi id congue dolor. Morbi nec purus eu justo
-                    tincidunt volutpat sed eu purus. Aliquam egestas 
-                    maximus ipsum, vel imperdiet lacus varius nec. In hac
-                    habitasse platea dictumst. Donec gravida eleifend mi 
-                    quis commodo. Duis sed leo justo. Fusce eget justo non 
-                    risus tempor laoreet. Suspendisse ullamcorper magna 
-                    quis velit ullamcorper suscipit.
+                <p className={styles.sectionDescription}>Cecilia Maas ist promovierte 
+                Medienhistorikerin und Ideengeberin für joureka als auch aureka. Sie 
+                unterstützt die Entwickler:innen in Kommunikation und liefert Feedback.
+                Felix Mertineit ist studierter Wirtschaftsinformatiker (M.Sc.) und 
+                fungiert bei joureka als Projektmanager, Backend- und Deep-Learning-Entwickler. 
+                Ana-Maria Tomi ist als angehende Medienformatikerin für die Designkonzepte und 
+                -sprache sowie für die eigentliche Entwicklung eines interaktiven 
+                und ansprechenden Frontends zuständig. 
                 </p>
             </div>
         </div>

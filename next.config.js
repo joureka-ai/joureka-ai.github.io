@@ -1,4 +1,4 @@
-const basePath = process.env.NODE_ENV === 'production' ? '/joureka-web' : '';
+const basePath = process.env.NODE_ENV === 'production' ? '/' : '';
 
 module.exports = {
   basePath: `${basePath}`,

@@ -31,7 +31,7 @@ const ProjectSection = () => {
                     <a target="_blank" href={`https://github.com/joureka-ai/joureka-app`} className="py-3">
                         <FontAwesomeIcon size="3x" className="text-secondary" icon={faGithub} />
                     </a>
-                    <a target="_blank" href={`https://aureka.ai/`} className="py-3"><img src="logo_aureka.png" alt="Logo aureka" /></a>
+                    <a target="_blank" href={`https://aureka.ai/`} className="py-3"><img className="img-xs" src="logo_aureka.png" alt="Logo aureka" /></a>
                 </div> 
             </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import Section from "../components/Section/Section";
@@ -9,9 +9,12 @@ import InstallationSection from "../components/Section/InstallationSection";
 import TeamSection from "../components/Section/TeamSection";
 import { useRouter } from "next/router";
 import ContactSection from "../components/Section/ContactSection";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import StickyButton from '../components/StickyButton/StickyButton';
 
 export default function Home() {
   const router = useRouter();
+  const [showScrollTop, setShowScrollTop] = useState(false)
   const refToIntorduction = React.useRef(null);
   const refToDescription = React.useRef(null);
   const refToInstallation = React.useRef(null);
@@ -51,6 +54,12 @@ export default function Home() {
   }, [])
 
   useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setShowScrollTop(window.scrollY > window.innerHeight);
+    });
+  }, []);
+
+  useEffect(() => {
     const path = router.asPath;
     if (path && path.includes('/#')) {
       const sectionName = path.replace('/#', '');
@@ -73,6 +82,13 @@ export default function Home() {
     }
   }, [router.asPath]);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // for smoothly scrolling
+    });
+  };
+
   return (
     <div>
       <NextSeo
@@ -82,7 +98,7 @@ export default function Home() {
           type: 'website',
           url: 'https://joureka-ai.github.io/joureka-web/',
           title: 'joureka Website',
-          description: 'This is where the marketing website of the joureka project lives.',
+          description: 'joureka macht die Arbeit von Journalist:innen leichter! Mit joureka transkribierst du deine Interviews und Tonaufnahmen automatisch und bereitest deine Artikel auf: joureka bietet generierte Überblicke über die Textinhalte der Aufnahmen.',
           images: [
             {
               url: 'https://joureka-ai.github.io/joureka-web/logo.png',
@@ -99,7 +115,7 @@ export default function Home() {
         }}
       />
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <div ref={refToIntorduction}>
         <Section id="Introduction">
@@ -131,6 +147,7 @@ export default function Home() {
           <ContactSection></ContactSection>
         </Section>
       </div>
+      {showScrollTop &&  <StickyButton icon={faChevronUp} action={scrollToTop}></StickyButton>}
     </div>
   )
 }

@@ -14,7 +14,7 @@ const AboutSection = () => {
                 Mertineit und Ana-Maria Tomi - veröffentlichen joureka unter der A-GPL-3.0 Lizenz, 
                 welche weitere Nutzung, bei Vertrieb unter der gleichen Lizenz, ermöglicht. Die 
                 Entwicklung kann auf GitHub nachverfolgt werden: 
-                <a target="_blank" href="https://github.com/joureka-ai/joureka-app"><span className="text-secondary fw-bold">https://github.com/joureka-ai/joureka-app</span></a> .</div>
+                <a target="_blank" href="https://github.com/joureka-ai/joureka-app"><span className="text-secondary fw-bold"> https://github.com/joureka-ai/joureka-app</span></a> .</div>
                 <div className="mt-2">Der technische Funktionsumfang von joureka basiert auf <span className="text-secondary fw-bold">automatischer Spracherkennung</span> und 
                 neuesten <span className="text-secondary fw-bold">Methoden des Natural Language Processing</span>. Die Spracherkennungsbibliothek VOSK liefert 
                 die Transkripte und die semantischen sowie statistischen Zusammenfassungen erfolgen mit Hilfe 

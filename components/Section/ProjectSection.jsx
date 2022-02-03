@@ -14,15 +14,15 @@ const ProjectSection = () => {
                 <p className={styles.sectionDescription}>joureka ist Teil des 
                 <span className="text-secondary fw-bold"> aureka-Ökosystems</span>. aureka ist ein Startup, das digitale Tools für 
                 das audiovisuelle Erbe und die Wissensproduktion entwickelt. Wir 
-                gestalten künstliche Intelligenz für den gesellschaftlichen Nutzen. 
+                gestalten <span className="text-secondary fw-bold">künstliche Intelligenz für den gesellschaftlichen Nutzen</span>. 
                 Die cloud-basierte App von aureka für Archive, Bibliotheken und 
                 wissenschaftliche Einrichtungen unterstützt die Erschließung und 
                 Forschung mit audiovisuellen Medien. Bei aureka sind wir uns der 
                 Entwicklung bewusst das zu verarbeitende Datenmengen wachsen und 
                 Herausforderungen an Journalist:innen stetig steigen. Mit joureka 
                 möchten wir eine effiziente Lösung anbieten, die wichtige investigativ 
-                Arbeit unterstützt und Journalist:innen hilft, die Sicherheit und 
-                Souveränität ihrer Daten und Informant:innen zu wahren.
+                Arbeit unterstützt und Journalist:innen hilft, die <span className="text-secondary fw-bold">Sicherheit und 
+                Souveränität ihrer Daten</span> und Informant:innen zu wahren. joureka wurde 2021-2022 durch den Prototype Fund finanziert.
                 </p>
             </div>
             <div className={`col-12 col-md-2 ${styles.blueContainer} ${styles.right}`}>

@@ -22,7 +22,7 @@ const TeamSection = () => {
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center p-3">
                             <h5>Cecilia Maas</h5>
-                            <div className="text-center"> Project Management | Content Developer</div>
+                            <div className="text-center"> Concept Creator | Project Management |<br/>Content Developer</div>
                         </div>
                     </div>
                     <div className="d-flex flex-row justify-content-around align-items-center pb-5">

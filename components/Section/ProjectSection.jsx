@@ -9,7 +9,7 @@ const ProjectSection = () => {
   return (
     <React.Fragment>
         <div className="d-flex flex-row row justify-content-center align-items-center h-100">
-            <div className="col-12 col-md-10 pl-lg pr-md">
+            <div className="col-12 col-md-9 pl-lg pr-md">
                 <h1 className={styles.sectionTitle}>Über das Projekt</h1>
                 <p className={styles.sectionDescription}>joureka ist Teil des 
                 <span className="text-secondary fw-bold"> aureka-Ökosystems</span>. aureka ist ein Startup, das digitale Tools für 
@@ -25,9 +25,9 @@ const ProjectSection = () => {
                 Souveränität ihrer Daten</span> und Informant:innen zu wahren. joureka wurde 2021-2022 durch den Prototype Fund finanziert.
                 </p>
             </div>
-            <div className={`col-12 col-md-2 ${styles.blueContainer} ${styles.right}`}>
+            <div className={`col-12 col-md-3 ${styles.blueContainer} ${styles.right}`}>
                 <div className="d-flex flex-column align-items-center p-3">
-                    <a target="_blank" href={`https://prototypefund.de/project/joureka-mit-mehr-musse-vom-interview-zum-artikel/`} className="py-3"><img src="logo-pf.png" alt="Logo Prototype Fund" /></a>
+                    <a target="_blank" href={`https://prototypefund.de/project/joureka-mit-mehr-musse-vom-interview-zum-artikel/`} className="py-3"><img className="img-xs" src="logo_pf.png" alt="Logo Prototype Fund" /></a>
                     <a target="_blank" href={`https://github.com/joureka-ai/joureka-app`} className="py-3">
                         <FontAwesomeIcon size="3x" className="text-secondary" icon={faGithub} />
                     </a>

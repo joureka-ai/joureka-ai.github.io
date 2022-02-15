@@ -1,15 +1,10 @@
 @import "../../styles/variables";
 
 .section {
-    min-height: 40vh;
+    min-height: 30vh;
     padding: 4rem 0;
-    //position: relative;
 
     .sectionContent {
-        /*position: absolute;
-        height: 100%;
-        display: inline-block;*/
-
         .sectionTitle {
             color: $Blue;
         }

@@ -11,16 +11,16 @@ const IntroductionSection = () => {
             <div className="col-12 col-lg-6 pl-lg pr-sm mb-sm-5">
                 <h1 className={styles.sectionTitle}>Mit mehr Muße<br/>vom Interview<br/>zum Artikel!</h1>
                 <p className={styles.sectionDescription}>joureka macht die Arbeit von Journalist:innen 
-                leichter! Mit joureka <span className="text-secondary fw-bold">transkribierst du deine Interviews und Tonaufnahmen automatisch </span>  
-                 und bereitest deine Artikel auf: joureka bietet generierte Überblicke über die Textinhalte 
+                leichter! Mit joureka <span className="text-secondary fw-bold">transkribierst Du Deine Interviews und Tonaufnahmen automatisch </span>  
+                 und bereitest Deine Artikel auf: joureka bietet generierte Überblicke über die Textinhalte 
                 der Aufnahmen. Zum einen werden unterschiedliche Themengebiete identifiziert und zum anderen 
-                werden dir Vorschläge für erkannte Personen, Orte, Organisationen und Daten geliefert. 
+                werden Dir Vorschläge für erkannte Personen, Orte, Organisationen und Daten geliefert. 
                 Auch wird ersichtlich, welche Wörter am häufigsten Vorkommen. All diese Funktionen verknüpfen 
-                die Ergebnisse mit dem einzelnen korrespondierenden Interview. Um dich dabei zu unterstützen 
-                den Stift wirklich auf das Papier zu setze, haben wir für dich auch die Möglichkeit eingebaut 
-                <span className="text-secondary fw-bold"> Interviews zu kommentieren</span> und deine <span className="text-secondary fw-bold">Notizen zu visualisieren</span>. 
+                die Ergebnisse mit dem einzelnen korrespondierenden Interview. Um Dich dabei zu unterstützen 
+                den Stift wirklich auf das Papier zu setze, haben wir für Dich auch die Möglichkeit eingebaut 
+                <span className="text-secondary fw-bold"> Interviews zu kommentieren</span> und Deine <span className="text-secondary fw-bold">Notizen zu visualisieren</span>. 
                 In Zeiten, in denen investigativer Journalismus schwieriger und notwendiger wird, arbeitet joureka lediglich 
-                lokal auf deinem eigenen Rechner und mit Verschlüsselung! Die <span className="text-secondary fw-bold">Sicherheit deiner Daten</span> und 
+                lokal auf Deinem eigenen Rechner und mit Verschlüsselung! Die <span className="text-secondary fw-bold">Sicherheit Deiner Daten</span> und 
                 Interviewpartner:innen werden so nicht gefährdet.
                 </p>
             </div>

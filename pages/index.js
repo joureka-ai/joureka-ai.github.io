@@ -93,15 +93,15 @@ export default function Home() {
     <div>
       <NextSeo
         title="joureka Website"
-        description="This is where the marketing website of the joureka project lives."
+        description="joureka macht die Arbeit von Journalist:innen leichter!"
         openGraph={{
           type: 'website',
-          url: 'https://joureka-ai.github.io/joureka-web/',
-          title: 'joureka Website',
-          description: 'joureka macht die Arbeit von Journalist:innen leichter! Mit joureka transkribierst du deine Interviews und Tonaufnahmen automatisch und bereitest deine Artikel auf: joureka bietet generierte Überblicke über die Textinhalte der Aufnahmen.',
+          url: 'https://www.joureka.ai/',
+          title: 'joureka',
+          description: 'joureka macht die Arbeit von Journalist:innen leichter! Mit joureka transkribierst Du Deine Interviews und Tonaufnahmen automatisch und bereitest Deine Artikel auf: joureka bietet generierte Überblicke über die Textinhalte der Aufnahmen.',
           images: [
             {
-              url: 'https://joureka-ai.github.io/joureka-web/logo.png',
+              url: 'https://www.joureka.ai/joureka_thumbnail.png',
               width: 800,
               height: 600,
               alt: 'joureka logo',

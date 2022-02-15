@@ -9,13 +9,13 @@ const InstallationSection = () => {
             <div className="col-12 pl-lg pr-md">
                 <h1 className={styles.sectionTitle}>joureka lokal installieren</h1>
                 <div className={styles.sectionDescription}>
-                  <div>Damit deine Daten und die deiner 
-                  Interviewpartner sicher sind, wird joureka auf deinem Rechner installiert. 
+                  <div>Damit Deine Daten und die Deiner 
+                  Interviewpartner sicher sind, wird joureka auf Deinem Rechner installiert. 
                   Nach einer abgeschlossenen Installation wird kein Internetzugang mehr benötigt.
                   </div>
                   <div className="mt-2">Da joureka lediglich begrenzt 
-                  finanziert ist, wird von dir etwas technische Handwerklichkeit verlangt. 
-                  Im Optimalfall kannst du mit den Begriffen Git, Docker und Python etwas anfangen. 
+                  finanziert ist, wird von Dir etwas technische Handwerklichkeit verlangt. 
+                  Im Optimalfall kannst Du mit den Begriffen Git, Docker und Python etwas anfangen. 
                   Für alle, denen diese Wörter nichts sagen, gibt es auch eine ausführlich Anleitung.
                   </div>
               </div>
@@ -30,9 +30,9 @@ const InstallationSection = () => {
                     </div>
                     <div>
                       <div className="fw-bold">Kopieren der joureka-Dateien</div>
-                      <p>Um die joureka App auf deinem Rechner zu installieren, benötigst du zuallererst 
-                        den Quellcode. Diesen kannst du mittels eines Tools für die Verwaltung von 
-                        Code - Git - herunterladen. Das Kopieren der Dateien führst du durch den 
+                      <p>Um die joureka App auf Deinem Rechner zu installieren, benötigst Du zuallererst 
+                        den Quellcode. Diesen kannst Du mittels eines Tools für die Verwaltung von 
+                        Code - Git - herunterladen. Das Kopieren der Dateien führst Du durch den 
                         folgenden Befehl und in der Kommandozeile aus:
                       </p>
                       <div className="code">git clone https://github.com/joureka-ai/joureka-app.git</div>
@@ -44,17 +44,17 @@ const InstallationSection = () => {
                     </div>
                     <div>
                       <div className="fw-bold">Installieren und starten der joureka App</div>
-                      <p>Da alle nötigen Dateien auf deinem Rechner nun vorhanden sind, kannst du die 
-                        Installation mittels Python und der Kommandozeile starten. Dafür musst du in 
+                      <p>Da alle nötigen Dateien auf Deinem Rechner nun vorhanden sind, kannst Du die 
+                        Installation mittels Python und der Kommandozeile starten. Dafür musst Du in 
                         der offenen Kommandozeile in den "joureka-app" Ordner gehen. Hier der Befehl dafür:
                       </p>
                       <div className="code">cd joureka-app</div>
-                      <p className="pt-4">Endlich ist es soweit! Die joureka App kannst du jetzt mittels eines Befehls installieren:</p>
+                      <p className="pt-4">Endlich ist es soweit! Die joureka App kannst Du jetzt mittels eines Befehls installieren:</p>
                       <div className="code">python start_joureka.py</div>
                       <p className="pt-4">Jetzt startet die Installation, dies wird eine Weile dauern. 
                         Je nachdem wie alt dein Rechner ist und wie schnell dein Internet kann dies unter Umständen bis zu 1,5 h dauern.
                       </p>
-                      <p>Nach der einmaligen Installation kannst du den gleichen Befehl (<span className="fw-bold">python start_joureka.py</span>) verwenden, um joureka als App zu starten.</p>
+                      <p>Nach der einmaligen Installation kannst Du den gleichen Befehl (<span className="fw-bold">python start_joureka.py</span>) verwenden, um joureka als App zu starten.</p>
                     </div>
                   </div>
                   <div className="pt-4 col-12 col-md-6 installation-step d-flex flex-row justify-content-start">
@@ -63,7 +63,7 @@ const InstallationSection = () => {
                     </div>
                     <div>
                       <div className="fw-bold">Ein erfolgreicher Start von joureka</div>
-                      <p>Bei einem erfolgreichen Start von joureka wird dir das folgende 
+                      <p>Bei einem erfolgreichen Start von joureka wird Dir das folgende 
                       in deiner Konsole angezeigt:
                       </p>
                       <div className="code-image"><img src="code_app_started.png" alt="Code app started" /></div>
@@ -75,9 +75,9 @@ const InstallationSection = () => {
                     </div>
                     <div>
                       <div className="fw-bold">Öffnen von joureka in deinem Browser</div>
-                      <p>Nachdem du die vorherigen Schritte abgeschlossen hast und joureka, sozusagen, 
-                        in deiner Konsole läuft, kannst du mittels deines Browsers (FireFox, Chrome, Opera ...) 
-                        die eigentliche App verwenden. Dafür musst du die folgende Adresse in deinen Browser eingeben:
+                      <p>Nachdem Du die vorherigen Schritte abgeschlossen hast und joureka, sozusagen, 
+                        in Deiner Konsole läuft, kannst Du mittels Deines Browsers (FireFox, Chrome, Opera ...) 
+                        die eigentliche App verwenden. Dafür musst Du die folgende Adresse in deinen Browser eingeben:
                       </p>
                       <div className="code">http://localhost:3000</div>
                     </div>
@@ -87,7 +87,7 @@ const InstallationSection = () => {
                 </div>
                 <div className="p-2 text-italic text-center"><small>
                   <span className="fw-bold">Du verstehst nur Bahnhof? </span> 
-                  Hier findest du eine ausführliche und Betriebssystem spezifische 
+                  Hier findest Du eine ausführliche und Betriebssystem spezifische 
                   <b><a target="_blank" href="https://github.com/joureka-ai/joureka-app" className="text-primary"> ANLEITUNG</a></b>.</small></div> 
             </div>
         </div>

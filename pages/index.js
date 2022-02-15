@@ -97,7 +97,7 @@ export default function Home() {
         openGraph={{
           type: 'website',
           url: 'https://www.joureka.ai/',
-          title: 'joureka',
+          title: 'joureka - Mit mehr Muße vom Interview zum Artikel',
           description: 'joureka macht die Arbeit von Journalist:innen leichter! Mit joureka transkribierst Du Deine Interviews und Tonaufnahmen automatisch und bereitest Deine Artikel auf: joureka bietet generierte Überblicke über die Textinhalte der Aufnahmen.',
           images: [
             {
